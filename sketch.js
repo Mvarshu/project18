@@ -9,15 +9,15 @@ var knifeImage , fruit1, fruit2 ,fruit3,fruit4, monsterImage, gameOverImage;
 
 function preload(){
   
-  knifeImage = loadImage("knife.png");
-  monsterImage = loadAnimation("alien1.png","alien2.png")
-  fruit1 = loadImage("fruit1.png");
-  fruit2 = loadImage("fruit2.png");
-  fruit3 = loadImage("fruit3.png");
-  fruit4 = loadImage("fruit4.png");
-  gameOverImage = loadImage("gameover.png");
-  fruiteSound = loadSound('knifeSwoosh.mp3');
-  gameOverSound = loadSound('gameover.mp3');
+  knifeImage = loadImage("images/knife.png");
+  monsterImage = loadAnimation("images/alien1.png","images/alien2.png")
+  fruit1 = loadImage("images/fruit1.png");
+  fruit2 = loadImage("images/fruit2.png");
+  fruit3 = loadImage("images/fruit3.png");
+  fruit4 = loadImage("images/fruit4.png");
+  gameOverImage = loadImage("images/gameover.png");
+  fruiteSound = loadSound('images/knifeSwoosh.mp3');
+  gameOverSound = loadSound('images/gameover.mp3');
   //load sound here
 }
 
